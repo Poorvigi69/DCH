@@ -1,0 +1,124 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif; /* Modern sans-serif font */
+  background-color: #f4f9fc; /* Light blue background */
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Banner Section */
+.banner {
+  position: relative;
+  text-align: center;
+}
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Slight shadow for readability */
+}
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.cta-button {
+  background-color: #007BFF; /* Calming blue */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.cta-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Mission Section */
+.mission {
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Kit Features Section */
+.kit-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Mobile-friendly grid */
+  gap: 20px;
+  padding: 40px;
+  background-color: #ffffff;
+}
+.feature {
+  text-align: center;
+  background-color: #f0f9ff; /* Light blue background for features */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+.feature img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.feature:hover img {
+  transform: scale(1.05); /* Image zoom on hover */
+}
+.feature h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #007BFF;
+}
+.feature p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #007BFF;
+  color: white;
+  margin-top: 40px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .banner p {
+    font-size: 1rem;
+  }
+  .cta-button {
+    padding: 8px 16px;
+  }
+  .kit-features {
+    padding: 20px;
+  }
+  .feature {
+    padding: 15px;
+  }
+}
