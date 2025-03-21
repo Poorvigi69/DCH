@@ -1,0 +1,125 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Banner Section */
+.banner {
+  position: relative;
+  text-align: center;
+}
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.cta-button {
+  background-color: #ff7f50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Mission Section */
+.mission {
+  text-align: center;
+  padding: 40px;
+  background-color: #ffffff;
+}
+.mission p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Kit Features */
+.kit-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+.feature img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.feature:hover img {
+  transform: scale(1.05);
+}
+.feature h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.feature p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* AI Symptom Tracker */
+.ai-tracker {
+  padding: 40px;
+  text-align: center;
+  background-color: #fff3e6;
+}
+.ai-tracker h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.ai-tracker p {
+  font-size: 1rem;
+  color: #555;
+}
+#symptom-input {
+  padding: 10px;
+  margin-top: 10px;
+  width: 70%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.btn-submit {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#ai-message {
+  margin-top: 10px;
+  font-style: italic;
+  color: #777;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
