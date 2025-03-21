@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing - Cognicare</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="pricing">
+    <h1>Choose Your Plan</h1>
+    <div class="pricing-cards">
+      <div class="card">
+        <h2>Standard Kit</h2>
+        <p>$99.99</p>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+      <div class="card">
+        <h2>Subscription Kit</h2>
+        <p>$29.99/month</p>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+
+    <h3>Comparison Table</h3>
+    <table>
+      <tr>
+        <th>Feature</th>
+        <th>Standard Kit</th>
+        <th>Subscription Kit</th>
+      </tr>
+      <tr>
+        <td>Memory Aid Tools</td>
+        <td>✔</td>
+        <td>✔</td>
+      </tr>
+      <tr>
+        <td>Sensory Therapy Items</td>
+        <td>✔</td>
+        <td>✔</td>
+      </tr>
+      <tr>
+        <td>AI Symptom Tracker</td>
+        <td>Coming Soon</td>
+        <td>✔</td>
+      </tr>
+    </table>
+  </section>
+</body>
+</html>
